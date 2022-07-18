@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Montserrat&family=Noto+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  height: 100vh;
+  background: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0.7) 50%,
+      rgba(0, 0, 0, 0.1) 50%
+    ),
+    url(./images/masjid2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.top-container {
+  width: 40%;
+  position: relative;
+  top: 30%;
+  left: 10%;
+}
+
+.top-container h1 {
+  font-size: 3rem;
+  padding-bottom: 10px;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 0.3rem;
+}
+
+.top-container span {
+  color: red;
+  font-family: "Anton", sans-serif;
+}
+
+.top-container p {
+  width: 60%;
+  padding-bottom: 20px;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  font-size: 1.2rem;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.article {
+  margin: 80px;
+}
+
+.blog-image > img {
+  width: 400px;
+  height: 600px;
+}
+
+.blog-icon > img {
+  position: relative;
+  top: -400px;
+  left: 140px;
+}
+
+.blog {
+  display: flex;
+  justify-content: center;
+  column-gap: 65px;
+  vertical-align: top;
+}
+
+.blog-contents {
+  width: 500px;
+}
+
+.blog p {
+  padding: 15px 0;
+}
+.blog h1 {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.help-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  row-gap: 40px;
+}
+
+.help-section h1 {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.box {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  column-gap: 1.5rem;
+  padding: 2rem;
+  text-align: left;
+  color: black;
+  box-shadow: 2px 2px 26px 16px #f6f6f6;
+  position: relative;
+  margin-top: 20px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  grid-gap: 1.6rem;
+}
+.box-image img {
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+}
+
+.box-content p {
+  padding-top: 10px;
+  text-align: left;
+}
+
+.box:hover {
+  /* transform: scale(1.1);
+  transition: transform 0.5s ease; */
+  margin-top: -10px;
+  transition: 0.5s;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 25px;
+  margin-top: 30px;
+}
+
+.image img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.image img:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+
+.caption-photo {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.caption-photo h1 {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 1.6rem;
+}
+
+footer h1 {
+  font-family: "Lobster", cursive;
+  word-spacing: 0.3rem;
+  padding-bottom: 0.6rem;
+  color: red;
+}
